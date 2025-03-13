@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #1B2631; /* Fundo escuro mais profundo */
+    color: #fff; /* Garantir cor do texto padrão */
+}
+
+body {
+    color: #fff; /* Garantir que o texto de todo o body seja visível */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F39C12; /* Cor amarela */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 70px; /* Tamanho maior */
+    height: 70px; /* Tamanho maior */
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F4D03F; /* Cor amarela para o título */
+    font-family: 'Arial', sans-serif; /* Fonte mais limpa e moderna */
+    font-size: 3.5rem;
+}
+
+#cadastrar {
+    margin-top: 4vh;
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #27AE60; /* Cor verde brilhante */
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#cadastrar:hover {
+    background-color: #2ECC71; /* Cor verde no hover */
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #2ECC71;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(4px);
+}
+
+input {
+    border: none;
+    height: 4vh;
+    width: 50vw; /* Maior largura */
+    padding: 16px 22px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 35px;
+    background-color: #F8C471; /* Cor de fundo mais clara */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #2C3E50; /* Cor escura para o texto */
+    font-size: 16px; /* Tamanho de fonte ajustado */
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+input::placeholder {
+    color: #2C3E50; /* Cor visível para o placeholder */
+}
+
+input:focus {
+    background-color: #F5B041; /* Cor de fundo mais forte quando focado */
+    box-shadow: 0 0 8px #F39C12; /* Sombra de foco */
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+select {
+    color: #2C3E50; /* Cor escura para o texto */
+    background-color: #F8C471; /* Fundo mais claro */
+    border: 2px solid #F39C12;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 14px; /* Tamanho de fonte ajustado */
+    width: 20vw; /* Ajuste a largura aqui para ficar menor */
+    height: 3.5vh; /* Altura ajustada */
+}
+
+select option {
+    color: #2C3E50; /* Cor escura para o texto nas opções */
+    background-color: #F8C471; /* Fundo claro para as opções */
+}
+
+/* Ajuste para garantir que o texto nas opções do select fique visível */
+select option:checked {
+    background-color: #F39C12; /* Cor de fundo ao selecionar */
+    color: #fff; /* Cor do texto quando selecionado */
+}
+
+select:focus {
+    outline: none;
+    border-color: #F39C12; /* Cor de borda no foco */
+}
+
+/* Garantir visibilidade do texto dentro do select */
+#vaga, #tipo {
+    border: none;
+    display: flex;
+    border-radius: 30px;
+    width: 20vw; /* Agora tem uma largura menor */
+    height: 3.5vh; /* Menor altura */
+    background-color: #F8C471;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #2C3E50;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Usando a mesma fonte */
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Garantir que o texto do link tenha a mesma fonte */
+}
+
+.header img {
+    width: 10vh;
+}
